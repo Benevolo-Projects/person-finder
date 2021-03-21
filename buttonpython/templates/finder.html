@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Person Finder</title>
+</head>
+<body>
+    <form action="/face_check/" method="post">
+        {% csrf_token %}
+        <!--<input type="text" name="param" required> <br><br>
+        {{data_external}}<br><br>-->
+        <input type="submit" value="Compare Face">
+        <br><br>
+        {{data1}}
+    </form>
+</body>
+</html>
