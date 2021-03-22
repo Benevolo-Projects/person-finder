@@ -1,4 +1,4 @@
-<h1 align="center">Track Down</h1>
+<h1 align="center">TRACK DOWN</h1>
 <div align="center">
 
 <a href="https://github.com/Track-Down/track-down/stargazers"><img src="https://img.shields.io/github/stars/Track-Down/track-down?style=flat"/></a>
@@ -13,7 +13,7 @@
 ![](https://img.shields.io/badge/Fork-If_you_found_interesting-%23FF0000.svg?&style=flat&logoColor=white&color=white)<br>
 </div>  
   
-<img align="center" width=500 src="https://image.freepik.com/free-vector/people-search-concept-illustration_114360-2656.jpg" />
+<img align="centre" width=500 src="https://image.freepik.com/free-vector/people-search-concept-illustration_114360-2656.jpg" />
 
 ## Facing any issues?
 
