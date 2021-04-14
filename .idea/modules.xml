@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/SGP.iml" filepath="$PROJECT_DIR$/.idea/SGP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/person_finder_2.iml" filepath="$PROJECT_DIR$/.idea/person_finder_2.iml" />
     </modules>
   </component>
 </project>

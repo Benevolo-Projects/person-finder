@@ -17,7 +17,7 @@ def read_img(path):
 
 Known_encodings = []
 known_names = []
-known_dir = 'E://6th sem//SGP//Known'
+known_dir = '..//images//Known'
 for file in os.listdir(known_dir):
     img = read_img(known_dir + '/' + file)
     img_enc = face_recognition.face_encodings(img)[0]
@@ -25,7 +25,7 @@ for file in os.listdir(known_dir):
     known_names.append(file.split('.')[0])
 
 flag = False
-Unknown_dir = 'E://6th sem//SGP//Unknown'
+Unknown_dir = '..//images//Unknown'
 for file in os.listdir(Unknown_dir):
     img = read_img(Unknown_dir + '/' + file)
     img_enc = face_recognition.face_encodings(img)[0]

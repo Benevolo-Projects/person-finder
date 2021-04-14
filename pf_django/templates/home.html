@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>Home</h1>
+    <br>
+    <body style = "" >
+        <!--<form action="/face_check_redirect/" method="post">
+            {% csrf_token %}
+            <input type="submit" value="finder">
+        </form>-->
+        <button onclick="location.href = '/find/'">Find Someone</button> &nbsp;
+        <button onclick="location.href = '/upload/'">Upload Someone</button>
+    </body>
+{% endblock %}

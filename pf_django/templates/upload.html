@@ -1,0 +1,45 @@
+<!--<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>upload</title>
+</head>
+<body>
+    <form>
+        
+    </form>
+</body>
+</html>-->
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>Upload Person</h1>
+    <br>
+    <form method="POST" action="{% url 'upload' %}">
+        {% csrf_token %}
+        <div class="form-group">
+            <label for="firstname">Your First Name</label>
+            <input type="text" class="form-control" name="fname_u" id="firstname" placeholder="First Name" value="{{ fname_u }}" >
+        </div>
+        <div class="form-group">
+            <label for="lastname">Your Last Name</label>
+            <input type="text" class="form-control" name="lname_u" id="lastname"  placeholder="Last Name" value="{{ lname_u }}" >
+        </div>
+        <div class="form-group">
+            <label for="exampleInputEmail1">Your Email address</label>
+            <input type="email" class="form-control" name="email_u" id="exampleInputEmail1" placeholder="Email address" value="{{ email_u }}" >
+        </div>
+        <div class="form-group">
+            <label for="phone" >Your Mobile Number</label>
+            <input type="tel" pattern="[7-9]{1}[0-9]{9}" class="form-control" name="mobile_u" id="phone" placeholder="Mobile Number" value="{{ mobile_u }}" >
+        </div>
+        <br>
+        <div class="form-group ">
+            <label for="formFileMd" class="form-label">Image of lost person.</label>
+            <input class="form-control form-control-md" id="formFileMd" type="file" />
+            <small class=" alert-warning ">Please upload proper & clear image of persons face for better results.</small>
+        </div>
+        <br>
+        <button type="submit" class="btn btn-secondary">Submit</button>
+    </form>
+{% endblock %}

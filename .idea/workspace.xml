@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6109bf2d-0df3-4610-8df9-a8a8b4421700" name="Default Changelist" comment="" />
+    <list default="true" id="1b8a77e1-a90e-4646-b61b-779d6c736471" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,12 +10,12 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
-  <component name="ProjectId" id="1pk4B10UpszbMrix8HwCwy8v1fT" />
+  <component name="ProjectId" id="1r4siYxt1NVVCTp0BU2n8hoMxoa" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -24,20 +24,21 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../track-down" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\6th sem\SGP\Unknown_test_images" />
-      <recent name="E:\6th sem\SGP\Unknown" />
-      <recent name="E:\6th sem\SGP\ML" />
-      <recent name="E:\6th sem\SGP\subb_stuff" />
+      <recent name="E:\6th sem\SGP\person_finder_2\images\Unknown_test_images" />
+      <recent name="E:\6th sem\SGP\person_finder_2\images\Unknown" />
+      <recent name="E:\6th sem\SGP\person_finder_2\images\Known" />
+      <recent name="E:\6th sem\SGP\person_finder_2\images" />
+      <recent name="E:\6th sem\SGP\person_finder_2\pf_django" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.compare_faces (1)">
-    <configuration name="compare_faces (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="SGP" />
+  <component name="RunManager">
+    <configuration name="compare_faces" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="person_finder_2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -57,52 +58,8 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="compare_faces" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="SGP" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="E:\6th sem\SGP\ML\compare_faces.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="face_check" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="SGP" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ML" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ML/face_check.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.compare_faces (1)" />
-        <item itemvalue="Python.face_check" />
         <item itemvalue="Python.compare_faces" />
       </list>
     </recent_temporary>
@@ -112,42 +69,53 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="6109bf2d-0df3-4610-8df9-a8a8b4421700" name="Default Changelist" comment="" />
-      <created>1615713618180</created>
+      <changelist id="1b8a77e1-a90e-4646-b61b-779d6c736471" name="Default Changelist" comment="" />
+      <created>1618246824588</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1615713618180</updated>
+      <updated>1618246824588</updated>
     </task>
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="526" y="250" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1616305587246">
+    <state x="454" y="208" key="FileChooserDialogImpl" timestamp="1618427324438">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state x="526" y="250" key="#com.intellij.fileTypes.FileTypeChooser/0.30.1536.834@0.30.1536.834" timestamp="1616305587246" />
-    <state x="549" y="202" key="FileChooserDialogImpl" timestamp="1616151305740">
+    <state x="454" y="208" key="FileChooserDialogImpl/0.30.1536.834@0.30.1536.834" timestamp="1618427324438" />
+    <state width="1515" height="172" key="GridCell.Tab.0.bottom" timestamp="1618372270306">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state x="549" y="202" key="FileChooserDialogImpl/0.30.1536.834@0.30.1536.834" timestamp="1616151305740" />
-    <state width="1515" height="211" key="GridCell.Tab.0.bottom" timestamp="1616145876702">
+    <state width="1515" height="172" key="GridCell.Tab.0.bottom/0.30.1536.834@0.30.1536.834" timestamp="1618372270306" />
+    <state width="1515" height="172" key="GridCell.Tab.0.center" timestamp="1618372270306">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1515" height="211" key="GridCell.Tab.0.bottom/0.30.1536.834@0.30.1536.834" timestamp="1616145876702" />
-    <state width="1515" height="211" key="GridCell.Tab.0.center" timestamp="1616145876702">
+    <state width="1515" height="172" key="GridCell.Tab.0.center/0.30.1536.834@0.30.1536.834" timestamp="1618372270306" />
+    <state width="1515" height="172" key="GridCell.Tab.0.left" timestamp="1618372270306">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1515" height="211" key="GridCell.Tab.0.center/0.30.1536.834@0.30.1536.834" timestamp="1616145876702" />
-    <state width="1515" height="211" key="GridCell.Tab.0.left" timestamp="1616145876702">
+    <state width="1515" height="172" key="GridCell.Tab.0.left/0.30.1536.834@0.30.1536.834" timestamp="1618372270306" />
+    <state width="1515" height="172" key="GridCell.Tab.0.right" timestamp="1618372270306">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1515" height="211" key="GridCell.Tab.0.left/0.30.1536.834@0.30.1536.834" timestamp="1616145876702" />
-    <state width="1515" height="211" key="GridCell.Tab.0.right" timestamp="1616145876702">
+    <state width="1515" height="172" key="GridCell.Tab.0.right/0.30.1536.834@0.30.1536.834" timestamp="1618372270306" />
+    <state x="323" y="78" key="SettingsEditor" timestamp="1618419663770">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1515" height="211" key="GridCell.Tab.0.right/0.30.1536.834@0.30.1536.834" timestamp="1616145876702" />
-    <state x="277" y="90" key="SettingsEditor" timestamp="1616145555424">
+    <state x="323" y="78" key="SettingsEditor/0.30.1536.834@0.30.1536.834" timestamp="1618419663770" />
+    <state x="150" y="30" width="1268" height="577" key="dock-window-1" timestamp="1618404235158">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state x="277" y="90" key="SettingsEditor/0.30.1536.834@0.30.1536.834" timestamp="1616145555424" />
+    <state x="150" y="30" width="1268" height="577" key="dock-window-1/0.30.1536.834@0.30.1536.834" timestamp="1618404235158" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/pf_django/pf_django/urls.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
