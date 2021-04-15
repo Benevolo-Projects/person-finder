@@ -1,6 +1,6 @@
 import face_recognition
 
-image = face_recognition.load_image_file("E://6th sem//SGP//Unknown_test_images//Krish_test.jpg")
+image = face_recognition.load_image_file("../images/Unknown_test_images/1.jpeg")
 
 face_locations = face_recognition.face_locations(image)
 

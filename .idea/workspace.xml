@@ -2,8 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b8a77e1-a90e-4646-b61b-779d6c736471" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/pf_django/website/migrations/0006_auto_20210415_1049.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pf_django/website/migrations/0007_auto_20210415_2351.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML/compare_faces.py" beforeDir="false" afterPath="$PROJECT_DIR$/ML/compare_faces.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML/face_check.py" beforeDir="false" afterPath="$PROJECT_DIR$/ML/face_check.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Known/Kashyap.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Unknown/1.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/Unknown_test_images/1.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Unknown_test_images/kashyup_test.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/Unknown/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/db/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pf_django/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/pf_django/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pf_django/pf_django/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/pf_django/pf_django/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pf_django/pf_django/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/pf_django/pf_django/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pf_django/templates/finder.html" beforeDir="false" afterPath="$PROJECT_DIR$/pf_django/templates/finder.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pf_django/templates/upload.html" beforeDir="false" afterPath="$PROJECT_DIR$/pf_django/templates/upload.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pf_django/website/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/pf_django/website/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pf_django/website/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/pf_django/website/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pf_django/website/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/pf_django/website/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pf_django/website/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/pf_django/website/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,19 +46,23 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/images/db/Known/Unknown" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\6th sem\SGP\track-down\images\db\Known\Unknown" />
+      <recent name="E:\6th sem\SGP\track-down\images\db" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\6th sem\SGP\person_finder_2\images\Unknown_test_images" />
-      <recent name="E:\6th sem\SGP\person_finder_2\images\Unknown" />
-      <recent name="E:\6th sem\SGP\person_finder_2\images\Known" />
-      <recent name="E:\6th sem\SGP\person_finder_2\images" />
-      <recent name="E:\6th sem\SGP\person_finder_2\pf_django" />
+      <recent name="E:\6th sem\SGP\track-down\images\db\Known" />
+      <recent name="E:\6th sem\SGP\track-down\images\db\Unknown" />
+      <recent name="E:\6th sem\SGP\track-down\images\db" />
+      <recent name="E:\6th sem\SGP\track-down\images\Unknown_test_images" />
+      <recent name="E:\6th sem\SGP\track-down\images\Unknown" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.views">
     <configuration name="compare_faces" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="person_finder_2" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -64,9 +84,53 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="face_check" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="person_finder_2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ML" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ML/face_check.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="views" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="person_finder_2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pf_django/website" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pf_django/website/views.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.views" />
         <item itemvalue="Python.compare_faces" />
+        <item itemvalue="Python.face_check" />
       </list>
     </recent_temporary>
   </component>
@@ -84,34 +148,34 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="454" y="208" key="FileChooserDialogImpl" timestamp="1618430588422">
+    <state x="454" y="208" key="FileChooserDialogImpl" timestamp="1618459359826">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state x="454" y="208" key="FileChooserDialogImpl/0.30.1536.834@0.30.1536.834" timestamp="1618430588422" />
-    <state width="1515" height="172" key="GridCell.Tab.0.bottom" timestamp="1618372270306">
+    <state x="454" y="208" key="FileChooserDialogImpl/0.30.1536.834@0.30.1536.834" timestamp="1618459359826" />
+    <state width="1515" height="225" key="GridCell.Tab.0.bottom" timestamp="1618488075729">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1515" height="172" key="GridCell.Tab.0.bottom/0.30.1536.834@0.30.1536.834" timestamp="1618372270306" />
-    <state width="1515" height="172" key="GridCell.Tab.0.center" timestamp="1618372270306">
+    <state width="1515" height="225" key="GridCell.Tab.0.bottom/0.30.1536.834@0.30.1536.834" timestamp="1618488075729" />
+    <state width="1515" height="225" key="GridCell.Tab.0.center" timestamp="1618488075728">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1515" height="172" key="GridCell.Tab.0.center/0.30.1536.834@0.30.1536.834" timestamp="1618372270306" />
-    <state width="1515" height="172" key="GridCell.Tab.0.left" timestamp="1618372270306">
+    <state width="1515" height="225" key="GridCell.Tab.0.center/0.30.1536.834@0.30.1536.834" timestamp="1618488075728" />
+    <state width="1515" height="225" key="GridCell.Tab.0.left" timestamp="1618488075728">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1515" height="172" key="GridCell.Tab.0.left/0.30.1536.834@0.30.1536.834" timestamp="1618372270306" />
-    <state width="1515" height="172" key="GridCell.Tab.0.right" timestamp="1618372270306">
+    <state width="1515" height="225" key="GridCell.Tab.0.left/0.30.1536.834@0.30.1536.834" timestamp="1618488075728" />
+    <state width="1515" height="225" key="GridCell.Tab.0.right" timestamp="1618488075729">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1515" height="172" key="GridCell.Tab.0.right/0.30.1536.834@0.30.1536.834" timestamp="1618372270306" />
-    <state x="323" y="78" key="SettingsEditor" timestamp="1618430633265">
+    <state width="1515" height="225" key="GridCell.Tab.0.right/0.30.1536.834@0.30.1536.834" timestamp="1618488075729" />
+    <state x="323" y="78" key="SettingsEditor" timestamp="1618459392793">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state x="323" y="78" key="SettingsEditor/0.30.1536.834@0.30.1536.834" timestamp="1618430633265" />
-    <state x="150" y="30" width="1268" height="577" key="dock-window-1" timestamp="1618404235158">
+    <state x="323" y="78" key="SettingsEditor/0.30.1536.834@0.30.1536.834" timestamp="1618459392793" />
+    <state x="324" y="82" width="1250" height="627" key="dock-window-1" timestamp="1618463426551">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state x="150" y="30" width="1268" height="577" key="dock-window-1/0.30.1536.834@0.30.1536.834" timestamp="1618404235158" />
+    <state x="324" y="82" width="1250" height="627" key="dock-window-1/0.30.1536.834@0.30.1536.834" timestamp="1618463426551" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -17,15 +17,16 @@ def read_img(path):
 
 Known_encodings = []
 known_names = []
-known_dir = '..//images//Known'
+known_dir = '..//images//db//Known'
 for file in os.listdir(known_dir):
-    img = read_img(known_dir + '/' + file)
-    img_enc = face_recognition.face_encodings(img)[0]
-    Known_encodings.append(img_enc)
-    known_names.append(file.split('.')[0])
+    if file.endswith(('.png', '.jpg', '.jpeg', 'tiff')):
+        img = read_img(known_dir + '/' + file)
+        img_enc = face_recognition.face_encodings(img)[0]
+        Known_encodings.append(img_enc)
+        known_names.append(file.split('.')[0])
 
 flag = False
-Unknown_dir = '..//images//Unknown'
+Unknown_dir = '..//images//db//Known//Unknown'
 for file in os.listdir(Unknown_dir):
     img = read_img(Unknown_dir + '/' + file)
     img_enc = face_recognition.face_encodings(img)[0]
