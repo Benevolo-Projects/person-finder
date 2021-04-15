@@ -4,11 +4,11 @@
 {% block content %}
     <h1>Find Someone</h1>
     <br>
-    <form method="POST" action="{% url 'comp' %}">
+    <form method="POST" action="{% url 'comp' %}" enctype="multipart/form-data">
         {% csrf_token %}
         <div class="form-group ">
-            <label for="formFileMd" class="form-label">Image of lost person.</label>
-            <input class="form-control form-control-md" id="formFileMd" type="file" />
+            <label for="formFileMd" class="form-label">Upload Image of lost person.</label>
+            <input class="form-control form-control-md" name="image" id="formFileMd" type="file" accept="image/*" />
             <small >Please upload proper & clear image of persons face for better results.</small>
         </div>
         <input type="submit" value="Compare Face">
