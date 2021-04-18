@@ -15,7 +15,14 @@
         <br>
         <br>
         {% if data1 %}
-            Same person found : {{data1}}
+        <strong>Some same person found : </strong>
+        <ul>
+            <li>Name of the person who uploaded the same guy is {{ data1 }} </li>
+            <li>Email of {{ data1 }} for contact with him/her is {{ data1.email_u }}</li>
+            <li>Mobile of {{ data1 }} for calling him/her is {{ data1.mobile_u }}</li>
+            <li>Image of lost person:  <br><img width="300" height="300" src="{{ data1.image_l.url }}"/></li>
+            <li> The photo you uploaded was <br><img width="300" height="300" src="{{ data.image.url }}"> </li>
+        </ul>
         {% endif %}
     </form>
 {% endblock %}

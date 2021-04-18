@@ -1,11 +1,15 @@
 from django.shortcuts import render, redirect
-from .models import Uploader
+from .models import Uploader, Find
 import cv2
 import os
 from subprocess import run, PIPE
 import face_recognition, sys
 from .forms import UploadForm, FindForm
 from django.contrib import messages
+
+
+def login(request):
+    return render(request, 'login.html', {})
 
 
 def home(request):
@@ -79,13 +83,19 @@ def comp(request):
     face_locations = face_recognition.face_locations(image)
     if face_locations:
         out = run([sys.executable, '..//ML//compare_faces.py'], shell=False, stdout=PIPE)
-        out = out.stdout.decode("utf-8")
+        t1 = out.stdout
+        t2 = t1[:-2] #reomve \r\n from byte
+        out = t2.decode("utf-8")
         print(out)
-        if out != 'No found in data.\r\n':
-            messages.success(request, 'Match found.')
-            return render(request, 'finder.html', {'data1': out})
+        if out != 'No found in data.':
+            #messages.success(request, 'Match found.')
+            #
+            person = Uploader.objects.get(image_l__exact=out+'.jpg')
+            person_ = Find.objects.last()
+            #
+            return render(request, 'finder.html', {'data': person_, 'data1': person})
         else:
-            messages.info(request, 'Sorry!! no person found')
+            messages.info(request, 'Sorry!! no person found. But you can upload this guy by clicking Upload Person given Below.')
             return render(request, 'home.html', {})
     else:
         messages.success(request, 'There is no face in image or maybe image is blur! so please upload it again...')

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    <title>Person Finder</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+        {% load static %}<link rel='stylesheet' type='text/css' media='screen' href="{% static 'css/login.css' %}">
+    <script src="https://kit.fontawesome.com/a81368914c.js"></script>
+    <script src="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.js"></script>
+    <link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.css" />
+    </head>
+<body>
+    <img src="{% static 'images/illustration.svg' %}" alt="illustration image" class="wave">
+    <div class="login-container">
+        <form action="index.html">
+            <img class="avatar" src="{% static 'images/aavatar.svg' %}" alt="aavatar img">
+            <h2>Person Finder</h2>
+            <!--<div class="input-div one">
+                <div class="i">
+                    <i class="fas fa-user"></i>
+                </div>
+                <div>
+                    <h5>Username</h5>
+                    <input type="text" class="input" id="username" required>
+                </div>
+            </div>
+            <div class="input-div two">
+                <div class="i">
+                    <i class="fas fa-lock"></i>
+                </div>
+                <div>
+                    <h5>Password</h5>
+                    <input type="password" class="input" id="password" required>
+                </div>
+            </div>
+            <a href="#">Forget Password?</a>-->
+            <br>
+            <br>
+            <button type="button" onclick="location.href = '/home/'" class="btn" value="Login" >Google</button> <!--onclick="logIn()"-->
+            <br>
+            <button type="button" onclick="location.href = '/home/'" class="btn" value="Login" >Facebook</button> <!--onclick="logIn()"-->
+        </form>
+    </div>
+    
+    <script type="text/javascript" src="{% static 'js/login.js' %}"></script>
+</body>
+</html>
