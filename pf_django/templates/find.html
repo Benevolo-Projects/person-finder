@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+{% load static %}
+<br><br>
+<img src="{% static 'images/find.svg' %}" width="70%" class="m-0 img-fluid float-right" alt="Responsive image">
+
+<br><br><br>
+
+<h1>Find Someone</h1>
+<br>
+<form method="POST" action="{% url 'comp' %}" enctype="multipart/form-data">
+    {% csrf_token %}
+    <div class="form-group ">
+        <label for="formFileMd" class="form-label"><b><a class="text-warning">Upload </a>Image of Lost
+            Person</b></label><br>
+        <input class="btn-default"  name="image" id="formFileMd" required type="file" accept="image/*"/><br>
+        <small>Please upload proper & clear image of persons face for better results.</small><br>
+        <br><br>
+        <button type="submit" style="color:black;background:#ffc727" class="btn btn-default"><b>Compare Faces</b>
+        </button>
+		<br>
+    </div>
+</form>
+{% endblock %}

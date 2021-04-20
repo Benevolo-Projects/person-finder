@@ -2,23 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b8a77e1-a90e-4646-b61b-779d6c736471" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pf_django/website/migrations/0006_auto_20210415_1049.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pf_django/website/migrations/0007_auto_20210415_2351.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ML/compare_faces.py" beforeDir="false" afterPath="$PROJECT_DIR$/ML/compare_faces.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ML/face_check.py" beforeDir="false" afterPath="$PROJECT_DIR$/ML/face_check.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Known/Kashyap.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Unknown/1.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/Unknown_test_images/1.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Unknown_test_images/kashyup_test.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/Unknown/2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/db/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/db/Known/Unknown/0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/db/Known/Unknown/0.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pf_django/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/pf_django/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pf_django/pf_django/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/pf_django/pf_django/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pf_django/pf_django/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/pf_django/pf_django/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pf_django/templates/finder.html" beforeDir="false" afterPath="$PROJECT_DIR$/pf_django/templates/finder.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pf_django/templates/upload.html" beforeDir="false" afterPath="$PROJECT_DIR$/pf_django/templates/upload.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pf_django/website/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/pf_django/website/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pf_django/website/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/pf_django/website/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pf_django/website/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/pf_django/website/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pf_django/website/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/pf_django/website/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pf_django/website/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/pf_django/website/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,20 +36,22 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/images/db/Known/Unknown" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pf_django/templates" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\6th sem\SGP\track-down\images\db\Known\Unknown" />
-      <recent name="E:\6th sem\SGP\track-down\images\db" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\6th sem\SGP\track-down\pf_django\templates\UI" />
       <recent name="E:\6th sem\SGP\track-down\images\db\Known" />
       <recent name="E:\6th sem\SGP\track-down\images\db\Unknown" />
       <recent name="E:\6th sem\SGP\track-down\images\db" />
       <recent name="E:\6th sem\SGP\track-down\images\Unknown_test_images" />
-      <recent name="E:\6th sem\SGP\track-down\images\Unknown" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\6th sem\SGP\track-down\pf_django\templates" />
+      <recent name="E:\6th sem\SGP\track-down\pf_django\statics" />
+      <recent name="E:\6th sem\SGP\track-down\images\db\Known\Unknown" />
+      <recent name="E:\6th sem\SGP\track-down\images\db" />
     </key>
   </component>
   <component name="RunManager" selected="Python.views">
@@ -152,22 +144,22 @@
       <screen x="0" y="30" width="1536" height="834" />
     </state>
     <state x="454" y="208" key="FileChooserDialogImpl/0.30.1536.834@0.30.1536.834" timestamp="1618459359826" />
-    <state width="1515" height="225" key="GridCell.Tab.0.bottom" timestamp="1618488075729">
+    <state width="1515" height="225" key="GridCell.Tab.0.bottom" timestamp="1618558982523">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1515" height="225" key="GridCell.Tab.0.bottom/0.30.1536.834@0.30.1536.834" timestamp="1618488075729" />
-    <state width="1515" height="225" key="GridCell.Tab.0.center" timestamp="1618488075728">
+    <state width="1515" height="225" key="GridCell.Tab.0.bottom/0.30.1536.834@0.30.1536.834" timestamp="1618558982523" />
+    <state width="1515" height="225" key="GridCell.Tab.0.center" timestamp="1618558982522">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1515" height="225" key="GridCell.Tab.0.center/0.30.1536.834@0.30.1536.834" timestamp="1618488075728" />
-    <state width="1515" height="225" key="GridCell.Tab.0.left" timestamp="1618488075728">
+    <state width="1515" height="225" key="GridCell.Tab.0.center/0.30.1536.834@0.30.1536.834" timestamp="1618558982522" />
+    <state width="1515" height="225" key="GridCell.Tab.0.left" timestamp="1618558982520">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1515" height="225" key="GridCell.Tab.0.left/0.30.1536.834@0.30.1536.834" timestamp="1618488075728" />
-    <state width="1515" height="225" key="GridCell.Tab.0.right" timestamp="1618488075729">
+    <state width="1515" height="225" key="GridCell.Tab.0.left/0.30.1536.834@0.30.1536.834" timestamp="1618558982520" />
+    <state width="1515" height="225" key="GridCell.Tab.0.right" timestamp="1618558982523">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1515" height="225" key="GridCell.Tab.0.right/0.30.1536.834@0.30.1536.834" timestamp="1618488075729" />
+    <state width="1515" height="225" key="GridCell.Tab.0.right/0.30.1536.834@0.30.1536.834" timestamp="1618558982523" />
     <state x="323" y="78" key="SettingsEditor" timestamp="1618459392793">
       <screen x="0" y="30" width="1536" height="834" />
     </state>

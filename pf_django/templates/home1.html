@@ -1,0 +1,74 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<head>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    {% load static %}
+    <!--<link rel='stylesheet' type='text/css' media='screen' href="{% static 'css/login.css' %}">
+    -->
+    <script src="https://kit.fontawesome.com/a81368914c.js"></script>
+    <script src="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.js"></script>
+    <link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.css"/>
+</head>
+<body>
+<!--
+<div class="liquid-container">
+    <img src="{% static 'images/illustration.svg' %}" width="80%" alt="illustration image" class="wave">
+</div>
+<form class="rounded float-left" action="index.html">
+    <h2>Home</h2>
+
+    <br>
+    <br>
+    <button type="submit" onclick="location.href = '/find/'" style="color:white;background:#ffc727"
+            class="btn btn-default btn-lg"><span
+            class="fa fa-upload fa-xs"></span> Upload Lost Person
+    </button>
+    <button type="submit" onclick="location.href = '/upload/'" style="color:white;background:#ffc727"
+            class="btn btn-default btn-lg"><span
+            class="fa fa-search fa-xs"></span> Find Lost Person
+    </button>
+</form>
+
+
+<script type="text/javascript" src="{% static 'js/login.js' %}"></script>
+-->
+<img src="{% static 'images/illustration.svg' %}"  alt="illustration image" width="60%" class="wave">
+<div class="login-container float-right" >
+    <form action="index.html">
+
+        <h2>Home</h2>
+        <!--<div class="input-div one">
+            <div class="i">
+                <i class="fas fa-user"></i>
+            </div>
+            <div>
+                <h5>Username</h5>
+                <input type="text" class="input" id="username" required>
+            </div>
+        </div>
+        <div class="input-div two">
+            <div class="i">
+                <i class="fas fa-lock"></i>
+            </div>
+            <div>
+                <h5>Password</h5>
+                <input type="password" class="input" id="password" required>
+            </div>
+        </div>
+        <a href="#">Forget Password?</a>-->
+        <br>
+        <br>
+        <button type="button" onclick="location.href = '/find/'" class="btn" value="Login">Find Person</button>
+        <!--onclick="logIn()"-->
+        <br>
+        <button type="button" onclick="location.href = '/upload/'" class="btn" value="Login">Upload Person</button>
+        <!--onclick="logIn()"-->
+    </form>
+</div>
+
+<script type="text/javascript" src="{% static 'js/login.js' %}"></script>
+</body>
+
+{% endblock %}

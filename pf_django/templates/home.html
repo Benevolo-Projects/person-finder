@@ -1,14 +1,38 @@
 {% extends 'base.html' %}
 
 {% block content %}
-    <h1>Home</h1>
-    <br>
-    <body style = "" >
-        <!--<form action="/face_check_redirect/" method="post">
-            {% csrf_token %}
-            <input type="submit" value="finder">
-        </form>-->
-        <button onclick="location.href = '/find/'">Find Someone</button> &nbsp;
-        <button onclick="location.href = '/upload/'">Upload Someone</button>
-    </body>
+
+{% load static %}
+<head><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"></head>
+
+<br>
+
+<body style="">
+<br><br>
+<!--<form action="/face_check_redirect/" method="post">
+    {% csrf_token %}
+    <input type="submit" value="finder">
+</form>-->
+<div class="liquid-container">
+    <img src="{% static 'images/illustration.svg' %}" width="75%" class="rounded float-right" alt="...">
+</div>
+<br>
+<h1>Home</h1>
+<br>
+<br>
+<!--<button onclick="location.href = '/find/'">Find Someone</button><br><br> &nbsp;
+<button onclick="location.href = '/upload/'">Upload Someone</button>-->
+<button onclick="location.href = '/upload/'" type="submit" style="color:black;background:#ffc727; width:21%"
+        class="btn btn-default btn-lg"><span class="fa fa-upload fa-xs"></span> Upload Lost Person
+</button>
+<br>
+<br>
+<button onclick="location.href = '/find/'" type="submit" style="color:black;background:#ffc727; width:21%"
+        class="btn btn-default btn-lg"><span class="fa fa-search fa-xs"></span> Find Lost Person
+</button>
+
+
+
+
+</body>
 {% endblock %}
