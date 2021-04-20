@@ -1,5 +1,7 @@
 from django.urls import path
 from . import views
+from django.contrib.staticfiles.urls import staticfiles_urlpatterns
+
 
 urlpatterns = [
    path('', views.login, name='login'),
@@ -8,3 +10,5 @@ urlpatterns = [
    path('find/', views.find, name='find'),
    path('comp/', views.comp, name='comp'),
 ]
+
+urlpatterns += staticfiles_urlpatterns()

@@ -7,11 +7,42 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
+    <!-- Image and text -->
+    {% load static %}
     <title>Person Finder</title>
   </head>
   <body>
   <br>
+  <div class="container" >
+    <!--<nav class="navbar navbar-light bg-light" >
+        <a class="navbar-brand" href="#">
+          <img src="{% static '/images/aavatar.svg' %}" width="30" height="30" class="d-inline-block align-top" alt="">
+           Person Finder
+        </a>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" href="#">Features</a>
+          <a class="nav-item nav-link" href="#">Pricing</a>
+          <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </div>
+      </div>
+    </nav>-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">
+        <img src="{% static '/images/aavatar.svg' %}" width="30" height="30" class="d-inline-block align-top" alt="">
+        Person Finder
+      </a>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link" href="#">Our Moto</a>
+          <a class="nav-item nav-link" href="#">About us</a>
+          <a class="nav-item nav-link" href="#">Contact US</a>
+        </div>
+      </div>
+    </nav>
+
+  </div>
   <div class="container">
   {% if messages %}
     {% for message in messages %}
@@ -24,7 +55,6 @@
     {% endfor %}
   {% endif %}
   <br>
-    <br>
       {% block content %}
       {% endblock %}
     </div>
