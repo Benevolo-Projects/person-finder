@@ -9,6 +9,7 @@ urlpatterns = [
    path('upload/', views.upload, name='upload'),
    path('find/', views.find, name='find'),
    path('comp/', views.comp, name='comp'),
+   path('contactus/', views.contactus, name='contactus')
 ]
 
 urlpatterns += staticfiles_urlpatterns()

@@ -8,6 +8,10 @@ from .forms import UploadForm, FindForm
 from django.contrib import messages
 
 
+def contactus(request):
+    return render(request, 'contact_us.html', {})
+
+
 def login(request):
     return render(request, 'login.html', {})
 
@@ -56,7 +60,7 @@ def find(request):
         #we can redirect to thank you page from here
     else:
         return render(request, 'finder.html', {})"""
-    return render(request, 'finder.html', {})
+    return render(request, 'find.html', {})
 
 
 def comp(request):
@@ -70,13 +74,13 @@ def comp(request):
                 form.save()
             else:
                 messages.success(request, 'There is no face detected in you image So, Please try again...')
-                return render(request, 'finder.html', {})
+                return render(request, 'find.html', {})
         else:
             messages.success(request, 'There was an error in your image! Please try again...')
-            return render(request, 'finder.html', {})
+            return render(request, 'find.html', {})
         #we can redirect to thank you page from here
     else:
-        return render(request, 'finder.html', {})
+        return render(request, 'find.html', {})
 
     #compare
     image = face_recognition.load_image_file('../images/db/Known/Unknown/0.jpg')
@@ -93,13 +97,13 @@ def comp(request):
             person = Uploader.objects.get(image_l__exact=out+'.jpg')
             person_ = Find.objects.last()
             #
-            return render(request, 'finder.html', {'data': person_, 'data1': person})
+            return render(request, 'Table.html', {'data': person_, 'data1': person})
         else:
-            messages.info(request, 'Sorry!! no person found. But you can upload this guy by clicking Upload Person given Below.')
+            messages.info(request, 'Sorry!! no person found. But you can upload this guy by clicking Upload Lost Person given Below.')
             return render(request, 'home.html', {})
     else:
         messages.success(request, 'There is no face in image or maybe image is blur! so please upload it again...')
-        return render(request, 'finder.html', {})
+        return render(request, 'find.html', {})
     #return render(request, 'finder.html', {})
 
 

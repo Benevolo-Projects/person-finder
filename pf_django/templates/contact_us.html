@@ -1,0 +1,46 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+{% load static %}
+<div style="display: flex; justify-content: space-evenly;">
+
+    <div class="float-left" style="width:13rem;margin:50px">
+        <img src="{% static 'images/p1.svg' %}" class="card-img-top" height="180px" style="margin-top:10px">
+        <div class="card-body">
+            <h5 class="card-title">JIMMY <a class="text-warning">AGHERA </a></h5>
+        </div>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item">18DCS003</li>
+            <li class="list-group-item">18DCS003@charusat.edu.in</li>
+            <li class="list-group-item"><a href="https://www.linkedin.com/in/jimmy-aghera/"
+                                           class="card-link">LinkedIn</a></li>
+        </ul>
+    </div>
+
+    <div class="float-left" style="width:13rem;margin:50px">
+        <img src="{% static 'images/p2.svg' %}" class="card-img-top" height="180px" style="margin-top:10px">
+        <div class="card-body">
+            <h5 class="card-title">RUDRA <a class="text-warning">BARAD </a></h5>
+        </div>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item">18DCS007</li>
+            <li class="list-group-item">18DCS007@charusat.edu.in</li>
+            <li class="list-group-item"><a href="https://www.linkedin.com/in/rudra-barad/"
+                                           class="card-link">LinkedIn</a></li>
+    </div>
+
+    <div class="float-left" style="width:13rem;margin:50px">
+        <img src="{% static 'images/p3.svg' %}" class="card-img-top" height="180px" style="margin-top:10px">
+        <div class="card-body">
+            <h5 class="card-title">HARDIK <a class="text-warning">CHAVDA </a></h5>
+        </div>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item">18DCS013</li>
+            <li class="list-group-item">18DCS013@charusat.edu.in</li>
+            <li class="list-group-item"><a href="https://www.linkedin.com/in/hardik-chavda-a65205194/"
+                                           class="card-link">LinkedIn</a></li>
+    </div>
+</div>
+
+{% endblock %}
