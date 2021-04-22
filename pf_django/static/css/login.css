@@ -32,7 +32,7 @@ body{
     margin-left: 55rem;
     justify-content: center;
     align-items: center;
-    text-align: center;    
+    text-align: center;
 }
 
 form{
@@ -123,7 +123,7 @@ form h2{
     color: #999;
     font-size: 18px;
     transition: .3s;
-    
+
 }
 
 .input{
@@ -163,6 +163,8 @@ a:hover{
     border-radius: 25px;
     margin: 1rem 0;
     font-size: 1.5rem;
+    display: flex;
+    align-items: center;
     outline: none;
     border: none;
     text-align: center;
@@ -202,7 +204,7 @@ a:hover{
         width: 400px;
 
     }
-} 
+}
 
 @media screen and (max-width: 900px){
     .img{
@@ -210,7 +212,7 @@ a:hover{
     }
 
 
-    
+
     .container{
         grid-template-columns: 1fr;
 
