@@ -4,15 +4,20 @@
     <title>Person Finder</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
         {% load static %}
+        {% load socialaccount %}
         <link rel='stylesheet' type='text/css' media='screen' href="{% static 'css/login.css' %}">
+
     <script src="https://kit.fontawesome.com/a81368914c.js"></script>
     <script src="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.js"></script>
     <link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.css" />
     </head>
 <body>
-    <img src="{% static 'images/illustration.svg' %}" alt="illustration image" class="wave">
+    <div class="container">
+  <br>
+    <img src="{% static 'images/illustration.svg' %}" width="60%" alt="illustration image" class="wave float-left">
     <div class="login-container">
         <form action="index.html">
+            <br>
             <img class="avatar" src="{% static 'images/aavatar.svg' %}" alt="aavatar img">
             <h2>Person Finder</h2>
             <!--<div class="input-div one">
@@ -36,12 +41,15 @@
             <a href="#">Forget Password?</a>-->
             <br>
             <br>
-            <button type="button" onclick="location.href = '/home/'" class="btn" value="Login" >Google</button> <!--onclick="logIn()"-->
+            {% if user.is_authenticated %}
+            <h3>Welcome, {{ user.username }}</h3>
+            <button type="button" onclick="location.href = '{% url 'home' %}'" class="btn" >Home</button> <!--onclick="logIn()"-->
+            {% else %}
+             <button type="button" onclick="location.href = '{% provider_login_url 'google' %}'" class="btn" value="Login">Google</button> <!--onclick="logIn()"-->
+            {% endif %}
             <br>
-            <button type="button" onclick="location.href = '/home/'" class="btn" value="Login" >Facebook</button> <!--onclick="logIn()"-->
-        </form>
+            </form>
     </div>
-    
     <script type="text/javascript" src="{% static 'js/login.js' %}"></script>
 </body>
 </html>

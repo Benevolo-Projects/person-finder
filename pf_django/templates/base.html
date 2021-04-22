@@ -35,14 +35,19 @@
         </a>
         <ul class="navbar-nav ml-auto">
             <li class="nav-item"><a class="nav-link" href="{% url 'home' %}">Home</a></li>
-			<li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
-			<li class="nav-item"><a class="nav-link" href="#">Our Moto</a></li>
-			<li class="nav-item"><a class="nav-link" href="{% url 'contactus' %}" >Contact  Us</a></li>
-		</ul>
+			<li class="nav-item"><a class="nav-link" href="#">OurMoto</a></li>
+			<li class="nav-item"><a class="nav-link" href="{% url 'contactus' %}" >AboutUs</a></li>
+            {% if request.user.is_authenticated %}
+              <li class="nav-item"><a class="nav-link" href="{% url 'logout' %}" ><b>logout</b></a></li>
+
+          {% endif %}
+
+        </ul>
       </nav>
 
   </div>
   <div class="container">
+
   {% if messages %}
     {% for message in messages %}
       <div class="alert alert-warning alert-dismissible fade show" role="alert">
@@ -53,7 +58,9 @@
       </div>
     {% endfor %}
   {% endif %}
+      </div>
   <br>
+  <div class="container">
       {% block content %}
       {% endblock %}
     </div>
