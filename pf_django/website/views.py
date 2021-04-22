@@ -1,4 +1,6 @@
 from django.shortcuts import render, redirect
+from django.contrib.auth.decorators import login_required
+
 from .models import Uploader, Find
 import cv2
 import os
@@ -13,7 +15,7 @@ def contactus(request):
 
 
 def login(request):
-    return render(request, 'login.html', {})
+    return render(request, './account/login.html', {})
 
 
 def home(request):
