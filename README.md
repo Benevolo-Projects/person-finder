@@ -1,12 +1,12 @@
 <h1 align="center">TRACK DOWN</h1>
 <div align="center">
 
-<a href="https://github.com/Track-Down/track-down/stargazers"><img src="https://img.shields.io/github/stars/Track-Down/track-down?style=flat"/></a>
-<a href="https://github.com/Track-Down/track-down/network/members"><img src="https://img.shields.io/github/forks/Track-Down/track-down?style=flat"/></a>
-<a href="https://github.com/Track-Down/track-down/pulls"><img src="https://img.shields.io/github/issues-pr/Track-Down/track-down?style=flat?color=yellow"/></a>
-<a href="https://github.com/Track-Down/track-down/issues"><img src="https://img.shields.io/github/issues/Track-Down/track-down?style=flat"/></a>
-<a href="https://github.com/Track-Down/track-down/graphs/contributors"><img src="https://img.shields.io/github/contributors/Track-Down/track-down?color=orange"/></a>
-<a href="https://github.com/Track-Down/track-down/blob/master/LICENSE"><img src="https://img.shields.io/github/license/Track-Down/track-down?color=1abc9c"/></a>
+<a href="https://github.com/Person-Finder/person-finder/stargazers"><img src="https://img.shields.io/github/stars/Person-Finder/person-finder?style=flat"/></a>
+<a href="https://github.com/Person-Finder/person-finder/network/members"><img src="https://img.shields.io/github/forks/Person-Finder/person-finder?style=flat"/></a>
+<a href="https://github.com/Person-Finder/person-finder/pulls"><img src="https://img.shields.io/github/issues-pr/Person-Finder/person-finder?style=flat?color=yellow"/></a>
+<a href="https://github.com/Person-Finder/person-finder/issues"><img src="https://img.shields.io/github/issues/Person-Finder/person-finder?style=flat"/></a>
+<a href="https://github.com/Person-Finder/person-finder/graphs/contributors"><img src="https://img.shields.io/github/contributors/Person-Finder/person-finder?color=orange"/></a>
+<a href="https://github.com/Person-Finder/person-finder/blob/master/LICENSE"><img src="https://img.shields.io/github/license/Person-Finder/person-finder?color=1abc9c"/></a>
 <br>
 ![](https://img.shields.io/badge/Star-If_Liked-%23FF0000.svg?&style=flat&logoColor=white&color=white)
 ![](https://img.shields.io/badge/Fork-If_you_found_interesting-%23FF0000.svg?&style=flat&logoColor=white&color=white)<br>
@@ -16,7 +16,7 @@
 
 ## Facing any issues???
 
-Feel free to [open an issue](https://github.com/Track-Down/track-down/issues/new?assignees=&labels=Query&title=Query). We are glad to help you. ❤️
+Feel free to [open an issue](https://github.com/Person-Finder/person-finder/issues/new?assignees=&labels=Query&title=Query). We are glad to help you. ❤️
 
 ### License
 MIT
