@@ -5,8 +5,10 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/images/db/Known/Unknown/0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/db/Known/Unknown/0.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pf_django/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/pf_django/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pf_django/pf_django/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/pf_django/pf_django/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pf_django/templates/finder.html" beforeDir="false" afterPath="$PROJECT_DIR$/pf_django/templates/finder.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pf_django/static/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/pf_django/static/css/login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pf_django/templates/account/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/pf_django/templates/account/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pf_django/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/pf_django/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pf_django/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/pf_django/templates/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pf_django/templates/upload.html" beforeDir="false" afterPath="$PROJECT_DIR$/pf_django/templates/upload.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pf_django/website/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/pf_django/website/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pf_django/website/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/pf_django/website/views.py" afterDir="false" />
@@ -19,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -36,18 +38,19 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pf_django/templates" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\HP\Desktop\track-down\pf_django\templates\account" />
       <recent name="E:\6th sem\SGP\track-down\pf_django\templates\UI" />
       <recent name="E:\6th sem\SGP\track-down\images\db\Known" />
       <recent name="E:\6th sem\SGP\track-down\images\db\Unknown" />
       <recent name="E:\6th sem\SGP\track-down\images\db" />
-      <recent name="E:\6th sem\SGP\track-down\images\Unknown_test_images" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\6th sem\SGP\track-down\pf_django\static\images" />
       <recent name="E:\6th sem\SGP\track-down\pf_django\templates" />
       <recent name="E:\6th sem\SGP\track-down\pf_django\statics" />
       <recent name="E:\6th sem\SGP\track-down\images\db\Known\Unknown" />
@@ -140,10 +143,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="454" y="208" key="FileChooserDialogImpl" timestamp="1618459359826">
+    <state x="454" y="208" key="FileChooserDialogImpl" timestamp="1618978844926">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state x="454" y="208" key="FileChooserDialogImpl/0.30.1536.834@0.30.1536.834" timestamp="1618459359826" />
+    <state x="454" y="208" key="FileChooserDialogImpl/0.30.1536.834@0.30.1536.834" timestamp="1618978844926" />
     <state width="1515" height="225" key="GridCell.Tab.0.bottom" timestamp="1618558982523">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
@@ -164,10 +167,10 @@
       <screen x="0" y="30" width="1536" height="834" />
     </state>
     <state x="323" y="78" key="SettingsEditor/0.30.1536.834@0.30.1536.834" timestamp="1618459392793" />
-    <state x="324" y="82" width="1250" height="627" key="dock-window-1" timestamp="1618463426551">
+    <state x="0" y="30" width="1280" height="622" key="dock-window-1" timestamp="1619107799171">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state x="324" y="82" width="1250" height="627" key="dock-window-1/0.30.1536.834@0.30.1536.834" timestamp="1618463426551" />
+    <state x="0" y="30" width="1280" height="622" key="dock-window-1/0.30.1536.834@0.30.1536.834" timestamp="1619107799171" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
