@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b8a77e1-a90e-4646-b61b-779d6c736471" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/db/Known/Unknown/0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/db/Known/Unknown/0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pf_django/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/pf_django/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pf_django/static/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/pf_django/static/css/login.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pf_django/templates/account/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/pf_django/templates/account/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pf_django/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/pf_django/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pf_django/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/pf_django/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pf_django/templates/upload.html" beforeDir="false" afterPath="$PROJECT_DIR$/pf_django/templates/upload.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pf_django/website/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/pf_django/website/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pf_django/website/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/pf_django/website/views.py" afterDir="false" />
-    </list>
+    <list default="true" id="1b8a77e1-a90e-4646-b61b-779d6c736471" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
