@@ -14,6 +14,10 @@ def contactus(request):
     return render(request, 'contact_us.html', {})
 
 
+def ourmoto(request):
+    return render(request, 'ourmoto.html', {})
+
+
 def login(request):
     return render(request, './account/login.html', {})
 
@@ -102,7 +106,8 @@ def comp(request):
             #
             person = Uploader.objects.get(image_l__exact=out+'.jpg')
             person_ = Find.objects.last()
-            #
+            messages.info(request, 'Match found! Contact details of the uploader is given below.')
+
             return render(request, 'Table.html', {'data': person_, 'data1': person})
         else:
             messages.info(request, 'Sorry!! No match found. But you can upload this person by clicking Upload Lost Person given Below.')

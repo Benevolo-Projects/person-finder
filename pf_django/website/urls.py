@@ -11,6 +11,7 @@ urlpatterns = [
    path('find/', views.find, name='find'),
    path('comp/', views.comp, name='comp'),
    path('contactus/', views.contactus, name='contactus'),
+   path('ourmoto/', views.ourmoto, name='ourmoto'),
    path('logout/',auth_views.LogoutView.as_view(),name='logout'),
 ]
 
