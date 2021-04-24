@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1b8a77e1-a90e-4646-b61b-779d6c736471" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/db/Known/Unknown/0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/db/Known/Unknown/0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pf_django/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/pf_django/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pf_django/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/pf_django/templates/base.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
