@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b8a77e1-a90e-4646-b61b-779d6c736471" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/person-finder.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/person-finder.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pf_django/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/pf_django/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pf_django/templates/registration/logged_out.html" beforeDir="false" afterPath="$PROJECT_DIR$/pf_django/templates/registration/logged_out.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/db/Known/Unknown/0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/db/Known/Unknown/0.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +28,6 @@
   <component name="ProjectId" id="1r4siYxt1NVVCTp0BU2n8hoMxoa" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -52,7 +54,7 @@
   </component>
   <component name="RunManager" selected="Python.views">
     <configuration name="compare_faces" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="person_finder_2" />
+      <module name="person-finder" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -73,7 +75,7 @@
       <method v="2" />
     </configuration>
     <configuration name="face_check" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="person_finder_2" />
+      <module name="person-finder" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -94,7 +96,7 @@
       <method v="2" />
     </configuration>
     <configuration name="views" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="person_finder_2" />
+      <module name="person-finder" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -122,6 +124,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -135,35 +138,16 @@
     </task>
     <servers />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="454" y="208" key="FileChooserDialogImpl" timestamp="1618978844926">
-      <screen x="0" y="30" width="1536" height="834" />
-    </state>
-    <state x="454" y="208" key="FileChooserDialogImpl/0.30.1536.834@0.30.1536.834" timestamp="1618978844926" />
-    <state width="1515" height="225" key="GridCell.Tab.0.bottom" timestamp="1618558982523">
-      <screen x="0" y="30" width="1536" height="834" />
-    </state>
-    <state width="1515" height="225" key="GridCell.Tab.0.bottom/0.30.1536.834@0.30.1536.834" timestamp="1618558982523" />
-    <state width="1515" height="225" key="GridCell.Tab.0.center" timestamp="1618558982522">
-      <screen x="0" y="30" width="1536" height="834" />
-    </state>
-    <state width="1515" height="225" key="GridCell.Tab.0.center/0.30.1536.834@0.30.1536.834" timestamp="1618558982522" />
-    <state width="1515" height="225" key="GridCell.Tab.0.left" timestamp="1618558982520">
-      <screen x="0" y="30" width="1536" height="834" />
-    </state>
-    <state width="1515" height="225" key="GridCell.Tab.0.left/0.30.1536.834@0.30.1536.834" timestamp="1618558982520" />
-    <state width="1515" height="225" key="GridCell.Tab.0.right" timestamp="1618558982523">
-      <screen x="0" y="30" width="1536" height="834" />
-    </state>
-    <state width="1515" height="225" key="GridCell.Tab.0.right/0.30.1536.834@0.30.1536.834" timestamp="1618558982523" />
-    <state x="323" y="78" key="SettingsEditor" timestamp="1618459392793">
-      <screen x="0" y="30" width="1536" height="834" />
-    </state>
-    <state x="323" y="78" key="SettingsEditor/0.30.1536.834@0.30.1536.834" timestamp="1618459392793" />
-    <state x="0" y="30" width="1280" height="622" key="dock-window-1" timestamp="1619107799171">
-      <screen x="0" y="30" width="1536" height="834" />
-    </state>
-    <state x="0" y="30" width="1280" height="622" key="dock-window-1/0.30.1536.834@0.30.1536.834" timestamp="1619107799171" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
