@@ -1,7 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b8a77e1-a90e-4646-b61b-779d6c736471" name="Default Changelist" comment="" />
+    <list default="true" id="1b8a77e1-a90e-4646-b61b-779d6c736471" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/pf_django/Procfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/person-finder.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/person-finder.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Unknown/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Unknown_test_images/1.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/Unknown/1.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Unknown_test_images/Shubham_test.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/Unknown/Shubham_test.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Unknown_test_images/full blur.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/Test images/full blur.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Unknown_test_images/no_face_image.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/Test images/no_face_image.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Unknown_test_images/partial blur.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/Test images/partial blur.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Unknown_test_images/varun_test.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/Unknown/varun_test.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/db/Known/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/db/Known/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/db/Known/10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/db/Known/11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/db/Known/12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/db/Known/13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/db/Known/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/db/Known/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/db/Known/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/db/Known/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/db/Known/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/db/Known/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/db/Known/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/db/Known/8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/db/Known/9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/db/Known/Unknown/0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/db/Known/Unknown/0.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pf_django/pf_django/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/pf_django/pf_django/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,9 +45,10 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/pf_django" />
   </component>
   <component name="ProjectId" id="1r4siYxt1NVVCTp0BU2n8hoMxoa" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -30,19 +60,19 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\HP\Desktop\track-down\pf_django\templates\account" />
-      <recent name="E:\6th sem\SGP\track-down\pf_django\templates\UI" />
-      <recent name="E:\6th sem\SGP\track-down\images\db\Known" />
-      <recent name="E:\6th sem\SGP\track-down\images\db\Unknown" />
-      <recent name="E:\6th sem\SGP\track-down\images\db" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\6th sem\SGP\track-down\pf_django\static\images" />
       <recent name="E:\6th sem\SGP\track-down\pf_django\templates" />
       <recent name="E:\6th sem\SGP\track-down\pf_django\statics" />
       <recent name="E:\6th sem\SGP\track-down\images\db\Known\Unknown" />
       <recent name="E:\6th sem\SGP\track-down\images\db" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\HP\Desktop\person-finder\pf_django" />
+      <recent name="C:\Users\HP\Desktop\track-down\pf_django\templates\account" />
+      <recent name="E:\6th sem\SGP\track-down\pf_django\templates\UI" />
+      <recent name="E:\6th sem\SGP\track-down\images\db\Known" />
+      <recent name="E:\6th sem\SGP\track-down\images\db\Unknown" />
     </key>
   </component>
   <component name="RunManager" selected="Python.views">
@@ -143,6 +173,20 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="916" y="250" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1619638220958">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state x="916" y="250" key="#com.intellij.fileTypes.FileTypeChooser/0.30.1536.834@0.30.1536.834" timestamp="1619638220958" />
+    <state x="549" y="202" key="FileChooserDialogImpl" timestamp="1619637274657">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state x="549" y="202" key="FileChooserDialogImpl/0.30.1536.834@0.30.1536.834" timestamp="1619637274657" />
+    <state x="555" y="93" key="SettingsEditor" timestamp="1619639122368">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state x="555" y="93" key="SettingsEditor/0.30.1536.834@0.30.1536.834" timestamp="1619639122368" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
