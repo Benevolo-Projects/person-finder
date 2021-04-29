@@ -11,12 +11,28 @@
 ![](https://img.shields.io/badge/Star-If_Liked-%23FF0000.svg?&style=flat&logoColor=white&color=white)
 ![](https://img.shields.io/badge/Fork-If_you_found_interesting-%23FF0000.svg?&style=flat&logoColor=white&color=white)<br>
   
-<img width=700 src="https://image.freepik.com/free-vector/people-search-concept-illustration_114360-2656.jpg" />
+<img align="right" alt="GIF" height=280 src="https://image.freepik.com/free-vector/people-search-concept-illustration_114360-2656.jpg" />
 </div>  
+
+## Contents of the Repository
+
+
+## Documentation
+For detailed documentation and roadmap of our project please got to [Wiki]() of this repository.
+
+## Video
+For viewing or downloading video click [here]() :clapper:
 
 ## Facing any issues???
 
 Feel free to [open an issue](https://github.com/Person-Finder/person-finder/issues/new?assignees=&labels=Query&title=Query). We are glad to help you. ❤️
 
-### License
-MIT
+## License
+Project is published under the [MIT license](https://github.com/Face-Log/FACE-LOG/blob/main/LICENSE).
+
+
+
+
+
+
+
