@@ -15,20 +15,23 @@
 </div>  
 
 ## Contents of the Repository
-
+- [PPT](https://github.com/Person-Finder/person-finder/blob/master/PPT.pptx)
+- [Readme](https://github.com/Person-Finder/person-finder#readme)
+- [Documentation](https://github.com/Person-Finder/person-finder#documentation)
+- [Video Demonstration](https://github.com/Person-Finder/person-finder#video)
 
 ## Documentation
-For detailed documentation and roadmap of our project please got to [Wiki]() of this repository.
+For detailed documentation and roadmap of our project please got to [Wiki](https://github.com/Person-Finder/person-finder/wiki) of this repository.
 
 ## Video
-For viewing or downloading video click [here]() :clapper:
+For viewing or downloading video click [here](https://github.com/Person-Finder/person-finder/blob/master/VIDEO%20DEMO.mp4) :clapper:
 
 ## Facing any issues???
 
 Feel free to [open an issue](https://github.com/Person-Finder/person-finder/issues/new?assignees=&labels=Query&title=Query). We are glad to help you. ❤️
 
 ## License
-Project is published under the [MIT license](https://github.com/Face-Log/FACE-LOG/blob/main/LICENSE).
+Project is published under the [MIT license](https://github.com/Person-Finder/person-finder/blob/master/LICENSE).
 
 
 
