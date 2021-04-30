@@ -104,7 +104,7 @@ def comp(request):
         if out != 'No found in data.':
             #messages.success(request, 'Match found.')
             #
-            person = Uploader.objects.get(image_l__exact=out+'.jpg')
+            person = Uploader.objects.get(image_l__exact=out + '.jpg')
             person_ = Find.objects.last()
             messages.info(request, 'Match found! Contact details of the uploader is given below.')
 
