@@ -24,8 +24,7 @@ Project is published under the [MIT license](https://github.com/Person-Finder/pe
 
 <br>
 
-<div>
-
+<div align="center">
 <a href="https://github.com/Person-Finder/person-finder/stargazers"><img src="https://img.shields.io/github/stars/Person-Finder/person-finder?style=flat"/></a>
 <a href="https://github.com/Person-Finder/person-finder/network/members"><img src="https://img.shields.io/github/forks/Person-Finder/person-finder?style=flat"/></a>
 <a href="https://github.com/Person-Finder/person-finder/pulls"><img src="https://img.shields.io/github/issues-pr/Person-Finder/person-finder?style=flat?color=yellow"/></a>
