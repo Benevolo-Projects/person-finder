@@ -22,9 +22,9 @@ Feel free to [open an issue](https://github.com/Person-Finder/person-finder/issu
 ## License
 Project is published under the [MIT license](https://github.com/Person-Finder/person-finder/blob/master/LICENSE).
 
-<br><br>
+<br>
 
-<div align="center">
+<div>
 
 <a href="https://github.com/Person-Finder/person-finder/stargazers"><img src="https://img.shields.io/github/stars/Person-Finder/person-finder?style=flat"/></a>
 <a href="https://github.com/Person-Finder/person-finder/network/members"><img src="https://img.shields.io/github/forks/Person-Finder/person-finder?style=flat"/></a>
